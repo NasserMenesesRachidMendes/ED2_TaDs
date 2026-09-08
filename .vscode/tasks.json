@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compilar",
+      "detail": "Chama o Makefile na raiz: compila TODOS os .c do projeto.",
+      "type": "shell",
+      "command": "make",
+      "windows": { "command": "mingw32-make" },
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": ["$gcc"],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "executar",
+      "detail": "Compila se preciso e roda build/programa.exe.",
+      "type": "shell",
+      "command": "./build/programa.exe",
+      "options": { "cwd": "${workspaceFolder}" },
+      "dependsOn": "compilar",
+      "problemMatcher": []
+    },
+    {
+      "label": "limpar",
+      "detail": "Apaga a pasta build.",
+      "type": "shell",
+      "command": "make",
+      "windows": { "command": "mingw32-make" },
+      "args": ["clean"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ]
+}
