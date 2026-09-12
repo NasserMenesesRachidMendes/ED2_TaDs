@@ -2,6 +2,11 @@
  * main.c
  * Ponto de entrada do programa. Apenas orquestra: chama as operacoes dos
  * modulos de biblioteca/. Nao implementa estrutura alguma.
+ * 
+Atalho	        O que faz	                        Onde sai a saída
+Ctrl+Shift+B	compila e roda	terminal integrado  (fica visível)
+F5	            compila e roda com depurador	    Debug Console
+Ctrl+F5	        compila e roda sem depurador	    Debug Console
  */
 #include <stdio.h>
 
