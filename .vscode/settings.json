@@ -1,4 +1,11 @@
 {
+  // O botao "Run C/C++ File" da extensao C/C++ gera sozinho uma task
+  // "build active file" que compila SO o arquivo aberto (${file}), com caminho
+  // absoluto do gcc, e se marca como build padrao. Isso quebra o link deste
+  // projeto (main.c sem os .c de biblioteca/) e amarra o repo a uma maquina.
+  // Desligando o botao, o build continua sendo o Makefile.
+  "C_Cpp.debugShortcut": false,
+
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
