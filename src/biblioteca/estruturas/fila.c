@@ -1,4 +1,10 @@
 /*
+ * Trabalho Pratico 1 - Estruturas de Dados 2
+ * Aluno(s): PREENCHER NOME(S)
+ * Matricula(s): PREENCHER MATRICULA(S)
+ * Data: PREENCHER DATA
+ */
+/*
  * fila.c
  * Implementacao da fila declarada em fila.h: o corpo de cada operacao,
  * com o passo-a-passo dos ponteiros comentado.

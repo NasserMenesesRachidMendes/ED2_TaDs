@@ -1,4 +1,10 @@
 /*
+ * Trabalho Pratico 1 - Estruturas de Dados 2
+ * Aluno(s): PREENCHER NOME(S)
+ * Matricula(s): PREENCHER MATRICULA(S)
+ * Data: PREENCHER DATA
+ */
+/*
  * lista.h
  * Interface da lista encadeada: a struct do no e as operacoes por posicao.
  * Base para as estruturas que precisam de tamanho dinamico.
