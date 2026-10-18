@@ -1,10 +1,4 @@
 /*
- * Trabalho Pratico 1 - Estruturas de Dados 2
- * Aluno(s): PREENCHER NOME(S)
- * Matricula(s): PREENCHER MATRICULA(S)
- * Data: PREENCHER DATA
- */
-/*
  * pilha.h
  * Interface da pilha (LIFO): a struct do no e os prototipos das operacoes.
  * Unico arquivo que quem usa a pilha precisa incluir.

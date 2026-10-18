@@ -1,9 +1,3 @@
-/*
- * Trabalho Pratico 1 - Estruturas de Dados 2
- * Aluno(s): PREENCHER NOME(S)
- * Matricula(s): PREENCHER MATRICULA(S)
- * Data: PREENCHER DATA
- */
 #ifndef GRAFO_H
 #define GRAFO_H
 

@@ -1,10 +1,4 @@
 /*
- * Trabalho Pratico 1 - Estruturas de Dados 2
- * Aluno(s): PREENCHER NOME(S)
- * Matricula(s): PREENCHER MATRICULA(S)
- * Data: PREENCHER DATA
- */
-/*
  * fila.h
  * Interface da fila (FIFO): a struct do no e os prototipos das operacoes.
  * Usada tambem pela busca em largura do grafo, por isso e' modulo separado.

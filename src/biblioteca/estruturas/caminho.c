@@ -1,8 +1,4 @@
 /*
- * Trabalho Pratico 1 - Estruturas de Dados 2
- * Aluno(s): PREENCHER NOME(S)
- * Matricula(s): PREENCHER MATRICULA(S)
- * Data: PREENCHER DATA
  *
  * Dijkstra usando as operacoes publicas da TAD Grafo. O algoritmo exige
  * pesos nao negativos. O vetor de pesos e indexado pelo id da aresta.
